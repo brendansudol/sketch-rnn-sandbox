@@ -1,0 +1,33 @@
+{
+ "grad_clip": 1.0, 
+ "conditional": 1, 
+ "min_learning_rate": 1e-05, 
+ "num_mixture": 20, 
+ "is_training": 1, 
+ "input_dropout_prob": 0.9, 
+ "kl_decay_rate": 0.9999, 
+ "kl_tolerance": 0.2, 
+ "random_scale_factor": 0.15, 
+ "decay_rate": 0.9999, 
+ "use_recurrent_dropout": 0, 
+ "num_steps": 10000000, 
+ "max_seq_len": 131, 
+ "z_size": 128, 
+ "augment_stroke_prob": 0.15, 
+ "learning_rate": 0.001, 
+ "batch_size": 100, 
+ "enc_model": "lstm", 
+ "use_input_dropout": 0, 
+ "dec_model": "lstm", 
+ "enc_rnn_size": 256, 
+ "output_dropout_prob": 0.9, 
+ "save_every": 500, 
+ "dec_rnn_size": 512, 
+ "kl_weight": 1.0, 
+ "data_set": [
+  "face.full.npz"
+ ], 
+ "kl_weight_start": 0.01, 
+ "use_output_dropout": 0, 
+ "recurrent_dropout_prob": 0.9
+}
